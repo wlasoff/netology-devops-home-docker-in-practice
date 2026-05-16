@@ -29,16 +29,19 @@ See 'snap info docker' for additional versions.
 ## Ответ вопрос 1 в Задача 0:
 
 1. Убедимся что у меня НЕ(!) установлен ```docker-compose``` путем ввода команды ```docker-compose --version```
+   
 
 ![d1](https://github.com/wlasoff/netology-devops-home-docker-in-practice/tree/main/img/d1.png)
+
 
 ## Ответ вопрос 2 в задании:
 
 2. Произведем установку docker командой ```sudo snap install docker``` и проверим версию командой ```docker compose version```:
+   
 
 ![d2](https://github.com/wlasoff/netology-devops-home-docker-in-practice/tree/main/img/d2.png)
 
----
+
 
 ## Задача 1
 1. Сделайте в своем GitHub пространстве fork [репозитория](https://github.com/netology-code/shvirtd-example-python).
