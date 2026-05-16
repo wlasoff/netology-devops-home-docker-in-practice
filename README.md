@@ -28,6 +28,8 @@ See 'snap info docker' for additional versions.
 
 ## Ответ вопрос 1 в Задача 0:
 
+![z24](https://github.com/wlasoff/netology-devops-home-git-tools/blob/main/img/z24.png)
+
 1. Убедимся что у меня НЕ(!) установлен ```docker-compose``` путем ввода команды ```docker-compose --version```
    
 
