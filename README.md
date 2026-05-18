@@ -26,7 +26,7 @@ See 'snap info docker' for additional versions.
 2. Убедитесь что у вас УСТАНОВЛЕН ```docker compose```(без тире) версии не менее v2.24.X, для это выполните команду ```docker compose version```  
 ###  **Своё решение к задачам оформите в вашем GitHub репозитории!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
 
-## Ответ вопрос 1 в Задача 0:
+## Ответ на вопрос 1 в задаче 0:
 
 
 1. Убедимся что у меня НЕ(!) установлен ```docker-compose``` путем ввода команды ```docker-compose --version```
@@ -34,7 +34,7 @@ See 'snap info docker' for additional versions.
 ![d1](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d1.png)
 
 
-## Ответ вопрос 2 в задании:
+## Ответ на вопрос 2 в задаче 0:
 
 2. Произведем установку docker командой ```sudo snap install docker``` и проверим версию командой ```docker compose version```:
    
@@ -58,6 +58,16 @@ See 'snap info docker' for additional versions.
 ### ВНИМАНИЕ!
 !!! В процессе последующего выполнения ДЗ НЕ изменяйте содержимое файлов в fork-репозитории! Ваша задача ДОБАВИТЬ 5 файлов: ```Dockerfile.python```, ```compose.yaml```, ```.gitignore```, ```.dockerignore```,```bash-скрипт```. Если вам понадобилось внести иные изменения в проект - вы что-то делаете неверно!
 ---
+
+## Ответ на вопрос 1 в задаче 1:
+
+1. Сделал в своем GitHub пространстве fork [репозитория](https://github.com/netology-code/shvirtd-example-python)
+   
+![d3](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d3.png)
+
+2. Создал файл ```Dockerfile.python``` на основе существующего `Dockerfile`:
+
+![d4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d4.png)
 
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
