@@ -134,9 +134,15 @@ See 'snap info docker' for additional versions.
 
 ## Ответ на вопрос 4 в задаче 3:
 
-Запустил проект локально с помощью docker compose  в стабильном режиме работы:
+Запустил проект локально с помощью docker compose в стабильном режиме работы:
    
 ![d13](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d13.png)
+
+![d14](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d14.png)
+
+Получили в результате ответ:
+
+![d15](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d15.png)
 
 ## Ответ на вопрос 5 в задаче 3:
 
