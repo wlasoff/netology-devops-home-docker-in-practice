@@ -65,9 +65,14 @@ See 'snap info docker' for additional versions.
    
 ![d3](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d3.png)
 
-2. Создал файл ```Dockerfile.python``` на основе существующего `Dockerfile`:
+Далее сделал локальный fork [репозитория](https://github.com/wlasoff/shvirtd-example-python)
 
 ![d4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d4.png)
+
+2. Создал файл ```Dockerfile.python``` на основе существующего `Dockerfile`:
+
+![d5](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d5.png)
+
 
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
