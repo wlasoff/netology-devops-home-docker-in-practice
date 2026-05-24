@@ -69,9 +69,17 @@ See 'snap info docker' for additional versions.
 
 ![d4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d4.png)
 
-2. Создал файл ```Dockerfile.python``` на основе существующего `Dockerfile`:
+Создал файл ```Dockerfile.python``` на основе существующего `Dockerfile`:
 
 ![d5](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d5.png)
+
+Соберем docker контейнер:
+
+![d6](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d6.png)
+
+2.1 Попрбуем использовать multistage сборку вместо single stage:
+
+![d7](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d7.png)
 
 
 ## Задача 2 (*)
