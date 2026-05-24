@@ -85,6 +85,13 @@ See 'snap info docker' for additional versions.
 
 ![d8](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d8.png)
 
+Пересоберем docker контейнер не забыв удалить предыдущую сборку и протестируем ее:
+
+![d9](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d9.png)
+
+Создадим файл `.dockerignore`:
+
+![d10](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d10.png)
 
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
