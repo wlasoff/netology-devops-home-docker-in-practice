@@ -77,9 +77,13 @@ See 'snap info docker' for additional versions.
 
 ![d6](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d6.png)
 
-2.1 Попрбуем использовать multistage сборку вместо single stage:
+Протестируем корректность сборки:
 
 ![d7](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d7.png)
+
+2.1 Попрбуем использовать multistage сборку вместо single stage:
+
+![d8](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d8.png)
 
 
 ## Задача 2 (*)
