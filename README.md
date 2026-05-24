@@ -91,7 +91,7 @@ See 'snap info docker' for additional versions.
 
 Создадим файл `.dockerignore`:
 
-![d10](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d10.png)
+![d_10](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d_10.png)
 
 ## Задача 2 (*)
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . [Инструкция](https://cloud.yandex.ru/ru/docs/container-registry/quickstart/?from=int-console-help)
