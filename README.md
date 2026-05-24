@@ -164,6 +164,10 @@ See 'snap info docker' for additional versions.
    
 ![d18](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d18.png)
 
+Больше запросы делать не можем:
+
+![d19](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d19.png)
+
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
 2. Подключитесь к Вм по ssh и установите docker.
