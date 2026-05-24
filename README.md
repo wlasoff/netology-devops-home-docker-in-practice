@@ -148,13 +148,17 @@ See 'snap info docker' for additional versions.
 
 Подключимся к БД mysql:
    
-![d14](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d14.png)
+![d16](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d16.png)
+
+Вводим команды и получаем:
+
+![d17](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d17.png)
 
 ## Ответ на вопрос 6 в задаче 3:
 
 Остановим проект:
    
-![d15](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d15.png)
+![d18](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d18.png)
 
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
@@ -163,6 +167,11 @@ See 'snap info docker' for additional versions.
 4. Зайдите на сайт проверки http подключений, например(или аналогичный): ```https://check-host.net/check-http``` и запустите проверку вашего сервиса ```http://<внешний_IP-адрес_вашей_ВМ>:8090```. Таким образом трафик будет направлен в ingress-proxy. Трафик должен пройти через цепочки: Пользователь → Internet → Nginx → HAProxy → FastAPI(запись в БД) → HAProxy → Nginx → Internet → Пользователь
 5. (Необязательная часть) Дополнительно настройте remote ssh context к вашему серверу. Отобразите список контекстов и результат удаленного выполнения ```docker ps -a```
 6. Повторите SQL-запрос на сервере и приложите скриншот и ссылку на fork.
+
+## Ответ на вопрос 1 в задаче 4:
+
+![d19](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d19.png)
+
 
 ## Задача 5 (*)
 1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."
