@@ -144,7 +144,7 @@ See 'snap info docker' for additional versions.
 
 ![d15](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d15.png)
 
-и в браузере:
+Проверим в браузере:
 
 ![d15_](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d15_.png)
 
