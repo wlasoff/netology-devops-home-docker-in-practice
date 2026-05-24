@@ -144,6 +144,10 @@ See 'snap info docker' for additional versions.
 
 ![d15](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d15.png)
 
+и в браузере:
+
+![d15_](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d15_.png)
+
 ## Ответ на вопрос 5 в задаче 3:
 
 Подключимся к БД mysql:
