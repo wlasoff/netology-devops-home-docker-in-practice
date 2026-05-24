@@ -65,7 +65,9 @@ See 'snap info docker' for additional versions.
    
 ![d3](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d3.png)
 
-Далее сделал локальный fork [репозитория](https://github.com/wlasoff/shvirtd-example-python)
+## Ответ на вопрос 2 в задаче 1:
+
+Сделал локальный fork [репозитория](https://github.com/wlasoff/shvirtd-example-python)
 
 ![d4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d4.png)
 
@@ -81,7 +83,9 @@ See 'snap info docker' for additional versions.
 
 ![d7](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d7.png)
 
-2.1 Попрбуем использовать multistage сборку вместо single stage:
+## Ответ на вопрос 2.1 в задаче 1:
+
+Пеерпишем файл ```Dockerfile.python```:
 
 ![d8](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d8.png)
 
@@ -115,6 +119,36 @@ See 'snap info docker' for additional versions.
 5. Подключитесь к БД mysql с помощью команды ```docker exec -ti <имя_контейнера> mysql -uroot -p<пароль root-пользователя>```(обратите внимание что между ключем -u и логином root нет пробела. это важно!!! тоже самое с паролем) . Введите последовательно команды (не забываем в конце символ ; ): ```show databases; use <имя вашей базы данных(по-умолчанию virtd, как это указано в .env)>; show tables; SELECT * from requests LIMIT 10;```. Примечание: таблица в БД создается после первого поступившего запроса к приложению.
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
+
+## Ответ на вопрос 1 в задаче 3:
+
+Изучил файл "proxy.yaml".
+   
+![d11](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d11.png)
+
+## Ответ на вопрос 2 и 3 в задаче 3:
+
+Создал в репозитории файл ```compose.yaml``` согласно условий задачи:
+   
+![d12](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d12.png)
+
+## Ответ на вопрос 4 в задаче 3:
+
+Запустил проект локально с помощью docker compose  в стабильном режиме работы:
+   
+![d13](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d13.png)
+
+## Ответ на вопрос 5 в задаче 3:
+
+Подключимся к БД mysql:
+   
+![d14](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d14.png)
+
+## Ответ на вопрос 6 в задаче 3:
+
+Остановим проект:
+   
+![d15](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d15.png)
 
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
