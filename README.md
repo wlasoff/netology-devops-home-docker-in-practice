@@ -209,7 +209,7 @@ See 'snap info docker' for additional versions.
 
 ![t4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t4.png)
 
-Не находя в архиве нужного слоя:
+К сожалению в архиве нет нужного слоя:
 
 ![t4_](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t4_.png)
 
