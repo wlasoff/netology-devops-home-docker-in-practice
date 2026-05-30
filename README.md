@@ -209,15 +209,24 @@ See 'snap info docker' for additional versions.
 ![v6](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v6.png)
 
 
-## Ответ на вопрос 5 в задаче 4:
+## Ответ на вопрос 5 в задаче 4 (Необязательная часть):
+ 
+ Дополнительно настройли remote ssh context к своему серверу и отобразили список контекстов 
+ 
+ ![v7](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v7.png)
+ 
+ и результат удаленного выполнения ```docker ps -a```
 
-![v_](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v_.png)
+![v8](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v8.png)
 
+сравнив их на сервере:
+
+![v9](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v9.png)
 
 ## Ответ на вопрос 6 в задаче 4:
 
 
-![v7](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v7.png)
+![v10](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v10.png)
 
 
 ## Задача 5 (*)
