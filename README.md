@@ -213,13 +213,26 @@ See 'snap info docker' for additional versions.
 
 ![t4_](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t4_.png)
 
-Извлечем бинарник c помощью docker save с проверкой результата:
+Извлечем бинарный файл c помощью docker save с проверкой результата:
 
 ![t5](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t5.png)
 
 ## Задача 6.1
 Добейтесь аналогичного результата, используя docker cp.  
 Предоставьте скриншоты  действий .
+
+## Решение задачи 6.1:
+
+Создаем контейнер без запуска:
+   
+![t6](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t6.png)
+
+Копируем бинарный файл:
+   
+![t7](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t7.png)
+
+Выполним проверку:
+![t8](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t8.png)
 
 ## Задача 6.2 (**)
 Предложите способ извлечь файл из контейнера, используя только команду docker build и любой Dockerfile.  
