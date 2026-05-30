@@ -202,17 +202,22 @@ See 'snap info docker' for additional versions.
 
 ![v5](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v5.png)
 
+## Ответ на вопрос 4 в задаче 4:
+
+Проверяем работу нашего Docker контейнера в браузере:
+
+![v6](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v6.png)
 
 
 ## Ответ на вопрос 5 в задаче 4:
 
-![v2](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v2.png)
+![v_](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v_.png)
 
 
 ## Ответ на вопрос 6 в задаче 4:
 
 
-![v2](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v2.png)
+![v7](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v7.png)
 
 
 ## Задача 5 (*)
