@@ -191,6 +191,28 @@ See 'snap info docker' for additional versions.
 Скачайте docker образ ```hashicorp/terraform:latest``` и скопируйте бинарный файл ```/bin/terraform``` на свою локальную машину, используя dive и docker save.
 Предоставьте скриншоты  действий .
 
+## Решение задачи 6:
+
+Скачиваю образ:
+   
+![t1](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t1.png)
+
+Сохраняю образ в tar-архив:
+
+![t2](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t2.png)
+
+Создаю папку и распаковываю туда структуру слоев
+
+![t3](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t3.png)
+
+Анализирую извлеченный образ с помощью dive изучая слои образа (вкладка Layers). Ищем слой, в котором появляется файл /bin/terraform:
+
+![t4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t4.png)
+
+Нахожу архив нужного слоя и извлекаю сам бинарник c помощью docker save с проверкой результата:
+
+![t5](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t5.png)
+
 ## Задача 6.1
 Добейтесь аналогичного результата, используя docker cp.  
 Предоставьте скриншоты  действий .
