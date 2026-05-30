@@ -178,7 +178,41 @@ See 'snap info docker' for additional versions.
 
 ## Ответ на вопрос 1 в задаче 4:
 
-![d19](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/d19.png)
+Создал виртуальную машину в Yandex Cloud:
+
+![v1](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v1.png)
+
+## Ответ на вопрос 2 в задаче 4:
+
+Подключимся к виртуальной машине в Yandex Cloud:
+
+![v2](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v2.png)
+
+## Ответ на вопрос 3 в задаче 4:
+
+Написал bash-скрипт, который скачает мой репозиторий https://github.com/wlasoff/shvirtd-example-python в каталог /opt и запустит проект целиком:
+
+![v3](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v3.png)
+
+Запускаем скрипт:
+
+![v4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v4.png)
+
+Проверяем работу нашего Docker контейнера на виртуальной машине в Yandex Cloud:
+
+![v5](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v5.png)
+
+
+
+## Ответ на вопрос 5 в задаче 4:
+
+![v2](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v2.png)
+
+
+## Ответ на вопрос 6 в задаче 4:
+
+
+![v2](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v2.png)
 
 
 ## Задача 5 (*)
