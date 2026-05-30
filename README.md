@@ -209,7 +209,11 @@ See 'snap info docker' for additional versions.
 
 ![t4](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t4.png)
 
-Нахожу архив нужного слоя и извлекаю сам бинарник c помощью docker save с проверкой результата:
+Не находя в архиве нужного слоя:
+
+![t4_](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t4_.png)
+
+Извлечем бинарник c помощью docker save с проверкой результата:
 
 ![t5](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/t5.png)
 
