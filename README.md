@@ -225,6 +225,7 @@ See 'snap info docker' for additional versions.
 
 ## Ответ на вопрос 6 в задаче 4:
 
+Подключимся к БД mysql на виртуальной машине в Yandex Cloud и введем команды:
 
 ![v10](https://github.com/wlasoff/netology-devops-home-docker-in-practice/blob/main/img/v10.png)
 
